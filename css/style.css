@@ -10,6 +10,10 @@
 ****** FORMATAÇÕES GENÉRICAS *******
 */
 body{
+    background-image: url("../imagens/Rede\ de\ luzes\ sobre\ a\ cidade.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #c4c4c4;
@@ -26,9 +30,10 @@ h2{
 }
 
 h3{
-    color: black;
-    background: #cccccc;
-    padding: 10px;
+    color: white;
+    background: #0066cc;
+    padding: 4px;
+    margin: 5px 5px;
 }
 
 
@@ -57,7 +62,12 @@ h3{
 }
 
 .white{
-    color: #ffffff;    
+    color: #ffffff;  
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black, 
+     1px  1px 0 black;   
 }    
 
 /*
@@ -104,15 +114,14 @@ h3{
 }
 
 .content-right{
-    background: #ffffff;
-    padding: 15px;
-    margin-bottom: 20px;
+    background: white;
+    padding: 15px 15px 20px;
+    margin-bottom: 15px;
     
-
 }
 
 .post-right{
-    font-size: 13px;
+    font-size: 14px;
     padding: 5px;
     border-bottom: 1px dotted black;    
 }
@@ -137,9 +146,10 @@ a:hover{
 */
 #footer{
     clear: both;
+    width: 660px;
     text-align: center;
     box-sizing: border-box;
-    padding: 10p]x;
+    padding: 10px;
     background: #ffffff;
     color: #0066cc;
 }
